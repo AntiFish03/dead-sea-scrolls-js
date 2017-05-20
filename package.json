@@ -1,0 +1,33 @@
+{
+  "name": "dead-sea-scrolls-js",
+  "version": "1.0.0",
+  "description": "Console polyfill and suppression script",
+  "main": "dist/dead-sea-scrolls.js",
+  "repository": "git@github.com:AntiFish03/dead-sea-scrolls-js.git",
+  "author": "AntiFish03 <antifish03@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "console",
+    "polyfill",
+    "suppression"
+  ],
+  "homepage": "https://github.com/AntiFish03/dead-sea-scrolls-js#readme",
+  "dependencies": {
+    "js-cookie": "*",
+    "lodash": "^4.17.4",
+    "mout": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "uglify-js": "^3.0.9",
+    "webpack": "^2.5.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "npm run build"
+  }
+}
